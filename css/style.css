@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+  .menu a {
+    text-decoration: none;
+    color: rgb(245, 18, 18);
+    line-height: normal;
+  }
+  header {
+    background-color: #fdf0f0;
+    padding-top: 0px;
+  }
+  .menu {
+    float: right;
+    margin-top: 10px;
+    width: auto;
+    display: flex;
+    padding-left: 315px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+    .menu a {
+      padding-right: 17px;
+      font-size: 15px;
+      padding-top: 27px;
+    }
+  .parent-menubar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu .edit {
+    color: #f92950;
+  }
+  .menu a:hover {
+    color: #fff;
+  }
+  .parent-menubar img{
+    width: 141px;
+  }
+  .search-bar {
+  padding-top: 27px;
+  }
+  .search-bar a {
+    border: 1px solid #f92950;
+    padding: 9px 21px;
+    color: #f92950;
+    text-decoration: none;
+  }
+  .search-bar .fa {
+    padding-right: 70px;
+    color: #ffffff;
+  }
+   .head-text h2 {
+    color: #f92950;
+    font-family: "Lobster Two", cursive;
+    font-style: italic;
+    padding-left: 7px;
+    height: 9px;
+    margin-top: 0px;
+    padding-top: 5px;
+  }
+.clear {
+    clear: both;
+}
+
+.banner-1 {
+  background-image: url(../images/banner-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  padding: 161px 0;
+}
+.banner1-text h1 {
+  font-family: 'Lobster Two', cursive;
+  color: #f92950;
+  font-size: 59px;
+  padding-bottom: 27px;
+}
+.banner1-text p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+.button-1 a {
+  padding: 18px 31px;
+  background-color: #ff7d68;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.button-1 a:hover {
+  background-color: transparent;
+  border: 3px solid #ff7d68;
+  color: #ff7d68;
+}
+.banner1-text {
+  padding-bottom: 207px;
+}
+.clear {
+  clear: both;
+}
+
+.order {
+  padding: 70px;
+}
+.order h3 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 27px;
+  }
+  .order p {
+    text-align: center;
+    margin-top: 0px;
+  }
+  .order h5 {
+    text-align: center;
+    color: #f92950;
+  }
+  .order h6 {
+    text-align: center;
+    color: #f92950;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+  }
+  .order span {
+    color: #dec5b9;
+  }
+  .box {
+    float: left;
+    padding: 50px 35px;
+    text-align: center;
+    margin: 0 auto;
+    width: 19%;
+  }
+  .box img {
+    border-radius: 72px;
+    width: 60%;
+  }
+  .box h4 {
+    margin-bottom: 10px;
+  }
+  .box p {
+    border-bottom: 2px dotted #dec5b9;
+    padding-bottom: 27px;
+  }
+  .clear {
+    clear: both;
+  }
+
+
+  .square {
+    background-image: url(../icon/girl-pic.png);
+    background-size: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff5eb;
+    padding: 77px 0px;
+  }
+  .page-1 {
+    display: flex;
+    padding-bottom: 140px;
+    justify-content: space-around;
+  }
+  .class-01 {
+    text-align: center;
+  }
+  .class-01 a {
+    color: #e9d9d2;
+    font-size: 50px;
+  }
+  .class-01 a:hover {
+    color: #f92950;
+  }
+  .page-1 h5 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    font-size: 18px;
+  }
+  .page-1 p {
+    margin-top: 10px;
+    color: #676462;
+  }
+  .page-2 {
+    display: flex;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    justify-content: space-around;
+  }
+  .page-2 h5 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    font-size: 18px;
+  }
+  .page-2 p {
+    margin-top: 10px;
+    color: #676462;
+  }
+  .clear {
+    clear: both;
+  }
+
+
+  .gallery {
+    padding: 100px 0;
+    text-align: center;
+    text-decoration: none;
+  }
+  .gallery {
+    padding-right: 61px;
+  }
+  .parent-gallery {
+    display: flex;
+  }
+  .gallery-item{
+    float: left;
+    width: 50%;
+  }
+  .gallery h3 {
+    font-weight: 800;
+    font-size: 47px;
+    padding-bottom: 23px;
+  }
+  .gallery-item .picture-02 {
+    margin-top: 15px;
+    padding-left: 40px;
+  }
+  .gallery-1 .picture-04 {
+    margin-top: 9px;
+    padding-left: 21px;
+    width: 548px;
+  }
+  .gallery-2 .picture-07 {
+    width: 551px;
+    padding-top: 8px;
+  }
+  .picture-01 {
+    padding-left: 40px;
+  }
+  .picture-03 {
+    width: 265px;
+  }
+  .gallery-1 {
+    padding-left: 15px;
+  }
+  .picture-05 {
+  padding-right: 3px;
+  }
+  .picture-06 {
+  padding-left: 5px;
+  }
+  .gallery-item {
+    margin: 0px;
+    padding: 0px; 
+  }
+  .clear {
+    clear: both;
+  }
+
+
+  .testimonials {
+    padding: 50px 0px;
+    background-color: #fff5eb;
+    text-align: center;
+  }
+  .testimonials h2 {
+    font-size: 47px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding-bottom: 21px;
+  }
+  .testimonials p {
+    font-weight: 300;
+  }
+  .cook {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .cook h4 {
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: 1px;
+  }
+  .chef {
+    padding-top: 37px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  /* .chef-3 {
+    padding-top: 37px;
+  } */
+  .clear {
+    clear: both;
+  }
+
+  
+  footer {
+  padding: 77px 0;
+}
+ .parent-foot {
+  display: flex;
+  justify-content: space-between;
+} 
+.line-1 h2 {
+  font-family: 'Lobster Two', cursive;
+  color: #f92950;
+  margin-bottom: 7px;
+  font-size: 27px;
+  font-style: italic;
+}
+.line-1 img {
+  width: 70%;
+}
+.line-1 p {
+  margin: 0 auto;
+}
+.line-2 {
+  padding-top: 45px;
+}
+.line-3 {
+  padding-top: 107px;
+} 
+.address {
+  padding-top: 35px;
+}
+.address h5 {
+  padding-left: 37px;
+  font-size: 16px;
+  padding-top: 5px;
+}
+.mark {
+  display: flex;
+}
+.mark .fa {
+  color: #a6a6a6;
+  padding-bottom: 15px;
+}
+.mark .fa:hover {
+  color: #f92950;
+}
+.mark a {
+  color: #030303;
+}
+.mark .fa {
+  padding-right: 15px;
+}
+.font-icon1 a {
+  padding: 4px 0;
+  padding-bottom: 15px;
+}
+.font-icons a {
+  text-decoration: none;
+}
+ .new {
+  line-height: 21px;
+  display: inline-grid;
+}
+.new a {
+  text-decoration: none;
+  color: #030303;
+}
+.new a:hover {
+  color: #f92950;
+}
+.clear {
+  clear: both;
+}
